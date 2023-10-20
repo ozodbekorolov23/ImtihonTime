@@ -1,0 +1,57 @@
+.footer{
+
+    .container{
+        width: 1440px;
+        height: 100px;
+        background-color: #1B262F;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        margin-left: 64px;
+        gap: 40px;
+        margin-top: 42px;
+        
+    }
+  
+
+
+
+    &__link{
+        margin-left: 164px;
+        margin-top: 30px;
+      
+    }
+
+    &__link1{
+        color: #FBFCFE;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        align-items: center;
+    }
+
+
+    &__list2{
+        margin-left: 400px; 
+        margin-right: 164px;
+        margin-top: 42px;
+    }
+
+
+    &__img2{
+        margin: 20px;
+    }
+
+    &__img2{
+        fill: #DA6D97;
+    }
+
+    
+
+}

@@ -1,0 +1,92 @@
+.about{
+
+    .container{
+        width: 1440px;
+        height: 472px;
+        background-color: #1B262F;
+        display: flex;
+        align-items: center;
+ 
+    }
+
+    &__info{
+        margin-left: 130px;
+    }
+
+    &__heading{
+        width: 445px;
+        color: #FBFCFE;
+        font-family: "DM Serif Display";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px; 
+        letter-spacing: -0.369px;
+    }
+
+    &__text{
+        width: 445px;
+        color: #FBFCFE;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; 
+        margin-top: 24px;
+    }
+
+    .button2{
+        background-color: #1B262F;
+        border-color: #FBFCFE;
+        width: 129px;
+        height: 48px;
+        margin-left: 35px;
+        margin-top: 32px;
+        border-radius: 24px;
+
+
+        &__link{
+            color: #FBFCFE;
+            text-align: center;
+            font-family: "Public Sans";
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.115px;
+        }
+
+        &__link:hover{
+            color: #1B262F;
+        }
+        
+    }
+
+    .button2:hover{
+        border-radius: 24px;
+        border: 1px solid #FBFCFE;
+        background-color: #FFF;
+
+        &__link{
+            color: #1B262F;
+        }
+    }
+
+
+
+    &__list2{
+        margin-left: 131px;
+    }
+
+    &__item2{
+        display: flex;
+        align-items: center;
+    }
+
+    &__img{
+        margin-bottom: 54px;
+        gap: 62px;
+    }
+
+    
+}

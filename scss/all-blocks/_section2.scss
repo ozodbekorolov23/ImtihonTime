@@ -1,0 +1,30 @@
+.section2{
+
+    &__list{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin-left: 165px;
+        margin-right: 165px;
+        gap: 30px;
+      
+    }
+
+    &__heading{
+        width: 350px;
+        color: #36536B;
+        font-family: "Public Sans";
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__text{
+        width: 350px;
+        color: #6C8294;
+        font-family: "Public Sans";
+        font-size: 15px;
+        font-weight: 400;
+   
+    }
+
+}
